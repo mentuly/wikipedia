@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #202122;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .search-form {
+    display: flex;
+    align-items: center;
+}
+
+header .search-form input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+}
+
+header .search-form button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.sidebar {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+article h1 {
+    font-size: 28px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
